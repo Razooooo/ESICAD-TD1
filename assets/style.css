@@ -4,6 +4,8 @@ body{
 
 body{
     background-image: url("image/wallpaper.jpg");
+    width: 1920px;
+    height: 1080px;
 }
 
 .wrapper{
@@ -75,21 +77,14 @@ img.image {
 }
 
 .container{
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 745px;
+    margin-right: auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(3,3,3,3);
     background: #fff;
 }
     
-
-.container::after{
-    content: "";
-    display: block;
-    clear: both;
-}
-
 .container h2{
     margin-bottom: 10px;
 }
@@ -108,8 +103,71 @@ img.chèvre{
     margin: 0 20px 5px 0;
 }
 
+.bloc1{
+    max-width: 745px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(3,3,3,3);
+    background: #fff;
+    color: #000000;
+}
+    
+.bloc1 h2{
+    margin-bottom: 10px;
+}
 
+.bloc1 p{
+    line-height: 1.4;
+}
 
+img.mclaren{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
+
+.bloc_merco{
+    max-width: 745px;
+    margin-left: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(3,3,3,3);
+    background: #fff;
+    color: #000000;
+}
+    
+
+.bloc_merco h2{
+    margin-bottom: 10px;
+}
+
+.bloc_merco p{
+    line-height: 1.4;
+}
+
+img.mercedes{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
+
+.riveaux{
+    max-width: 650px;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(3,3,3,3);
+    background: #ffffff;
+}
 
 img.image {
     width: 800px;
@@ -190,4 +248,11 @@ img.déroulant {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+.Année_2018 td:hover{
+    background: #9910ac;
+}
+
 
